@@ -13,7 +13,13 @@ namespace MVC.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+             Class info = new Class();
+            info.FirstName = "Chermae";
+            info.LastName = "Borigas";
+            info.age = 18;
+            info.Address = "San Andres, Malate Manila";
+            
+            return View(info);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
