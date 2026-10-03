@@ -1,6 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿@model MVC.Models.Class;
 
-<p>Use this page to detail your site's privacy policy.</p>
+
+<div class="text-end">
+    <p class="display-6 border border-dark rounded p-2 d-inline-block bg-dark">Studenttttt  </p>
+</div>
+<div class="text-end">
+    <p class="display-6 border border-dark rounded p-2 d-inline-block bg-dark">Student Information '_'</p>
+</div>
+<div class="text-center">
+    <p class="display-6 border border-dark rounded p-2 d-inline-block">Student Information '_'</p>
+</div>
+<div class="text-start">
+    <p class="display-6 border border-dark rounded p-2 d-inline-block bg-dark">Student Information '_'</p>
+</div>
+<div class="text-start">
+    <p class="display-6 border border-dark rounded p-2 d-inline-block bg-dark">Studenttttt</p>
+</div>
+
+<div class="text-center">
+<div class="border border-dark rounded p-3 d-inline-block">
+    <h1>Basic things about me:</h1>
+    <p>First Name: @Model.FirstName</p>
+    <p>Middle Name: @Model.MiddleName</p>
+    <p>Last Name: @Model.LastName</p>
+    <p>Nickname: @Model.Nickname</p>
+    <p>Age: @Model.Age</p>
+</div>
+</div>
+
+<div class="text-center mt-3">
+<div class="border border-dark rounded p-3 d-inline-block">
+    <h1>Additional Information:</h1>
+    <p>First Name: @Model.Residence</p>
+    <p>Middle Name: @Model.PhoneNumber</p>
+    <p>Person to contact in case of emergencies: @Model.MothersName</p>
+    <p>Number: @Model.MothersPhoneNumber</p>
+</div>
+</div>
