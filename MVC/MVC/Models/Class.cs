@@ -1,4 +1,6 @@
-﻿namespace MVC.Models; 
+﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+
+namespace MVC.Models; 
  
 public class Class
 {
@@ -20,8 +22,18 @@ public class Class
 
     public string MothersPhoneNumber { get; set; }
 
+    public string StudentId { get; set; }
 
+    public string SchoolNameHalf1 { get; set; }
 
+    public string SchoolNameHalf2 { get; set; }
 
+    public string ProgramHalf1 { get; set; }
+
+    public string ProgramHalf2 { get; set; }
+
+    public string YearLevel { get; set; }
+
+    public string Section { get; set; }
 
 } 
