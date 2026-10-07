@@ -2,10 +2,10 @@
 <head>
     <style>
         .box{
-            background-color: #151515;
+            background-color: #1A2A474D;
             color: #a6a6a6;
             border: 1px solid #333333;
-            border-color: #303030;
+            border-color: #2A4365;
             border-radius: 20px;
             width: 350px;
             height: 320px;
@@ -16,10 +16,10 @@
         }
 
         .box_2{
-            background-color: #151515;
+            background-color: #1A2A474D;
             color: #a6a6a6;
             border: 1px solid #333333;
-            border-color: #303030;
+            border-color: #2A4365;
             border-radius: 20px;
             width: 535px;
             height: 270px;
@@ -28,7 +28,7 @@
             float: left;
         }
     </style>
-    <body style = "background-color:#0B0B0B;">
+    <body style="background-image: linear-gradient(to bottom right, #2a5298 0%, #14213d 50%, #0b132b 100%);">
 
         <div style="text-align: center; color:#FFFFFF;">
             <h1 style="font-family: Poppins; font-size:60px; font-weight: 800; 
@@ -43,45 +43,45 @@
         </div>
 
         <div class="box">
-            <h3 style="text-align: center">Student Name</h3>
+            <h3 style="text-align: center"><b>Student Name</b></h3>
             <hr />
-            <p>First Name: @Model.FirstName</p>
-            <p>Middle Name: @Model.MiddleName</p>
-            <p>Last Name: @Model.LastName</p>
-            <p>Nickname: @Model.Nickname</p>
-            <p>Suffix: @Model.Suffix</p>
+            <p><b>First Name:</b> @Model.FirstName</p>
+			<p><b>Middle Name:</b> @Model.MiddleName</p>
+			<p><b>Last Name:</b> @Model.LastName</p>
+			<p><b>Nickname</b>: @Model.Nickname</p>
+			<p><b>Suffix:</b> @Model.Suffix</p>
         </div>
     
         <div class="box">
-            <h3 style="text-align: center">Personal Details</h3>
+            <h3 style="text-align: center"><b>Personal Details</b></h3>
             <hr />
-            <p>Birthday: @Model.Birthday</p>
-            <p>Age: @Model.age</p>
-            <p>Address: @Model.Address</p>
-            <p>Religion: @Model.Religion</p>
-            <p>Contact Number: @Model.ContactNumber</p>
+            <p><b>Birthday:</b> @Model.Birthday</p>
+            <p><b>Age:</b> @Model.age</p>
+            <p><b>Address:</b> @Model.Address</p>
+            <p><b>Religion:</b> @Model.Religion</p>
+            <p><b>Contact Number:</b> @Model.ContactNumber</p>
         </div>
 
         <div class="box">
-            <h3 style="text-align: center">Student Details </h3>
+            <h3 style="text-align: center"><b>Student Details</b> </h3>
             <hr />
-            <p>Student Number: @Model.StudentNumber</p>
-            <p>School: @Model.School</p>
-            <p>Program: @Model.Program</p>
-            <p>Year Level: @Model.Year</p>
-            <p>Section: @Model.Section</p>
+            <p><b>Student Number:</b> @Model.StudentNumber</p>
+            <p><b>School:</b> @Model.School</p>
+            <p><b>Program:</b> @Model.Program</p>
+            <p><b>Year Level:</b> @Model.Year</p>
+            <p><b>Section:</b> @Model.Section</p>
         </div>
 
         <div class = "box_2">
-            <h3 style="text-align: center"> Additional Information </h3>
+            <h3 style="text-align: center"> <b>Additional Information</b> </h3>
             <hr />
-            <p>Hobbies: @Model.Hobbies</p>
-            <p>Favorite Kpop Idols: @Model.FavKpop</p>
-            <p>Fun Fact: @Model.FunFact</p>
+            <p><b>Hobbies:</b> @Model.Hobbies</p>
+            <p><b>Favorite Kpop Idols:</b> @Model.FavKpop</p>
+            <p><b>Fun Fact:</b> @Model.FunFact</p>
         </div>
 
          <div class = "box_2" style = " text-align: justify">
-            <h3 style="text-align: center"> Description About Myself </h3>
+            <h3 style="text-align: center"> <b>Description About Myself</b> </h3>
             <hr />
             <p>@Model.Description</p>
         </div>
