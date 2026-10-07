@@ -13,6 +13,10 @@ namespace MVC.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+        public IActionResult Francis()
+        {
             Class student = new Class();
             student.FirstName = "Francis Earl";
             student.LastName = "Fernandez";
