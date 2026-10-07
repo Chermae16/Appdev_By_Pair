@@ -1,21 +1,90 @@
 ﻿@model MVC.Models.Class
-{
-    ViewData["Title"] = "STUDENT INFO";
-}
+<head>
+    <style>
+        .box{
+            background-color: #151515;
+            color: #a6a6a6;
+            border: 1px solid #333333;
+            border-color: #303030;
+            border-radius: 20px;
+            width: 350px;
+            height: 320px;
+            padding:15px;
+            margin: 10px;
+            float: left;
+           
+        }
 
-<h2>First Name: </h2>
-<label>@Model.FirstName</label>
+        .box_2{
+            background-color: #151515;
+            color: #a6a6a6;
+            border: 1px solid #333333;
+            border-color: #303030;
+            border-radius: 20px;
+            width: 535px;
+            height: 270px;
+            padding: 15px;
+            margin: 10px;
+            float: left;
+        }
+    </style>
+    <body style = "background-color:#0B0B0B;">
 
-<h2> Last Name :</h2>
-<label> @Model.LastName</label>
+        <div style="text-align: center; color:#FFFFFF;">
+            <h1 style="font-family: Poppins; font-size:60px; font-weight: 800; 
+            line-height: 1; "><b>HI-IT'S ME @Model.FirstName </b></h1>
+            <h2 style="font-family: san-serif; font-size:40px; font-weight:200;"><i>BSCS 2-1N</i></h2>
+        </div>
 
-<h2> Age: </h2>
-<label>@Model.age</label>
+        <br />
+        <br />
+        <div style="font-size: 35px; color:#FFFFFF;">
+            <h2><b> Student Profile (2025-03026-MN-O): </b></h2>
+        </div>
 
-<h2> Address: </h2>
-<label>@Model.Address</label>
-<
-<
-    <h2> </h2>
+        <div class="box">
+            <h3 style="text-align: center">Student Name</h3>
+            <hr />
+            <p>First Name: @Model.FirstName</p>
+            <p>Middle Name: @Model.MiddleName</p>
+            <p>Last Name: @Model.LastName</p>
+            <p>Nickname: @Model.Nickname</p>
+            <p>Suffix: @Model.Suffix</p>
+        </div>
+    
+        <div class="box">
+            <h3 style="text-align: center">Personal Details</h3>
+            <hr />
+            <p>Birthday: @Model.Birthday</p>
+            <p>Age: @Model.age</p>
+            <p>Address: @Model.Address</p>
+            <p>Religion: @Model.Religion</p>
+            <p>Contact Number: @Model.ContactNumber</p>
+        </div>
 
-<p>Use this page to detail your site's privacy policy.</p>
+        <div class="box">
+            <h3 style="text-align: center">Student Details </h3>
+            <hr />
+            <p>Student Number: @Model.StudentNumber</p>
+            <p>School: @Model.School</p>
+            <p>Program: @Model.Program</p>
+            <p>Year Level: @Model.Year</p>
+            <p>Section: @Model.Section</p>
+        </div>
+
+        <div class = "box_2">
+            <h3 style="text-align: center"> Additional Information </h3>
+            <hr />
+            <p>Hobbies: @Model.Hobbies</p>
+            <p>Favorite Kpop Idols: @Model.FavKpop</p>
+            <p>Fun Fact: @Model.FunFact</p>
+        </div>
+
+         <div class = "box_2" style = " text-align: justify">
+            <h3 style="text-align: center"> Description About Myself </h3>
+            <hr />
+            <p>@Model.Description</p>
+        </div>
+
+    </body>
+</head>
