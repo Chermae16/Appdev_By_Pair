@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -76,17 +80,13 @@
               "Title": "Francis.cshtml",
               "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\Francis.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Home\\Francis.cshtml",
-              "ToolTip": "C:\\Users\\maria\\source\\repos\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\Francis.cshtml*",
-              "RelativeToolTip": "MVC\\Views\\Home\\Francis.cshtml*",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\Francis.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Home\\Francis.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-03T13:32:18.242Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
