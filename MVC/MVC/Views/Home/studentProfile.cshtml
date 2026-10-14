@@ -1,0 +1,104 @@
+﻿@model MVC.Models.Class
+<head>
+    <style>
+
+        .name{
+            border: 2px solid;
+            border-color: #FFFFFF;
+            border-radius: 25px;
+            padding:7px;
+            width:200px;
+            height:50px;
+            font-size: 20px; 
+            color:#FFFFFF;
+            text-align: center;
+        }
+        .box{
+            background-image:linear-gradient(#41097c,#65088c,#700592);
+            color: #FFFFFF;
+            border: 2px solid;
+            border-color: #2A4365;
+            border-radius: 20px;
+            width: 350px;
+            height: 320px;
+            padding:15px;
+            margin: 10px;
+            float: left;
+           
+        }
+
+        .box_2{
+            background-image:linear-gradient(#41097c,#65088c,#700592);
+            color:#FFFFFF;
+            border: 1px solid #561161;
+            border-color: #2A4365;
+            border-radius: 20px;
+            width: 535px;
+            height: 270px;
+            padding: 15px;
+            margin: 10px;
+            float: left;
+        }
+    </style>
+    <body style="background-image: linear-gradient(#6e006e,#6e006e,#580058,#420042,#300131,#260127, #1d011d, #130014, #0a000a,#000000">
+
+        <div style="text-align: center; color:#FFFFFF;">
+            <h1 style="font-family: Poppins; font-size:60px; font-weight: 800; 
+            line-height: 1; "><b>Student Profile</b></h1>
+            <h2><p>(2025-03026-MN-0)</p></h2>
+        </div>
+
+        <br />
+
+        <div class="name">
+            <p> <b>About Me</b> </p>
+        </div>
+
+        <br />
+
+        <div class="box">
+            <h3 style="text-align: center"><b>Student Name</b></h3>
+            <hr />
+            <p>First Name: @Model.FirstName1</p>
+			<p>Middle Name: @Model.MiddleName1</p>
+			<p>Last Name: @Model.LastName1</p>
+			<p>Nickname: @Model.Nickname1</p>
+			<p>Suffix: @Model.Suffix1</p>
+        </div>
+    
+        <div class="box">
+            <h3 style="text-align: center"><b>Personal Details</b></h3>
+            <hr />
+            <p>Birthday: @Model.Birthday1</p>
+            <p>Age: @Model.age1</p>
+            <p>Address: @Model.Address1</p>
+            <p>Religion: @Model.Religion1</p>
+            <p>Contact Number: @Model.ContactNumber1</p>
+        </div>
+
+        <div class="box">
+            <h3 style="text-align: center"><b>Student Details</b> </h3>
+            <hr />
+            <p>Student Number: @Model.StudentNumber1</p>
+            <p>School: @Model.School1</p>
+            <p>Program:] @Model.Program1</p>
+            <p>Year Level: @Model.Year1</p>
+            <p>Section: @Model.Section1</p>
+        </div>
+
+        <div class = "box_2">
+            <h3 style="text-align: center"> <b>Additional Information</b> </h3>
+            <hr />
+            <p>Hobbies: @Model.Hobbies1</p>
+            <p>Favorite Kpop Idols: @Model.FavKpop1</p>
+            <p>Fun Fact: @Model.FunFact1</p>
+        </div>
+
+         <div class = "box_2" style = " text-align: justify">
+            <h3 style="text-align: center"> <b>Description About Myself</b> </h3>
+            <hr />
+            <p>@Model.Description1</p>
+        </div>
+
+    </body>
+</head>

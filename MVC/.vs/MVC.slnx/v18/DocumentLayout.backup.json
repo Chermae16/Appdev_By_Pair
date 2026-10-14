@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\views\\home\\studentprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\home\\studentprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|c:\\users\\chermae borigas\\onedrive\\desktop\\appdev_by_pair\\mvc\\mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49A22FD4-FC39-D5A1-2992-E6C456843950}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Models\\Class.cs",
               "RelativeDocumentMoniker": "MVC\\Models\\Class.cs",
               "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Models\\Class.cs",
               "RelativeToolTip": "MVC\\Models\\Class.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T10:54:59.632Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:39:18.963Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "MVC\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAE8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T17:45:29.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "studentProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\studentProfile.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Home\\studentProfile.cshtml",
+              "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Home\\studentProfile.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Home\\studentProfile.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACoAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-01T11:40:35.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAACLAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Chermae Borigas\\OneDrive\\Desktop\\Appdev_By_Pair\\MVC\\MVC\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "MVC\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-01T12:28:40.6Z"
+              "WhenOpened": "2026-10-01T12:28:40.6Z",
+              "EditorCaption": ""
             }
           ]
         }
